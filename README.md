@@ -24,7 +24,7 @@ Realizamos a operação de subtração entre <code>quoteAmount</code> e <code>ta
 O código realiza a seguinte operação:
 
 ```javascript
-14.50 - 0.36 = 14.14
+15 - 0.37 (0.375...) = 14.63
 ```
 
 O arredondamento aplicado com <code>BigNumber.ROUND_DOWN</code> garante que o valor final seja 14.14.
